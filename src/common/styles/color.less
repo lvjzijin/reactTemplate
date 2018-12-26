@@ -1,0 +1,354 @@
+/* common color*/
+@default-color:#6b798e;
+@title-color:#0a1633;
+@blue: #4074e1;
+@blue-blod: #3664c8;
+@blue-light: #88a4ea;/* 设计师漏掉,先暂定*/
+@light: #c3cad9;
+@white: #fff;
+@red: #f44336;
+@green: #4cd964;
+@yellow: #f9ce1d;
+@disable: #bbb;
+@light-gray: #abb4c3;/* 备注颜色 */
+@pink: #aa6cef;
+@orange: #fc946a;
+@gray-blue: #93a2c4;
+
+
+/* common background color */
+@bg-default:#fcfcfd;/* 默认模块背景色 例如:图表无信息 */
+@bg-yellow: #fffce5;
+@bg-content: #f2f6fc;
+@bg-gray: #e1e6f0;
+@bg-red: #fff0f0;
+@bg-blue: #4683e6;/* 可能和主色blue有冲突 */
+@bg-pink: #f8f2ff;
+@bg-blue-light: #eaf3fd;
+@bg-table-striped: #f7f9fc;
+@bg-blue-bold: #3664c8;
+@bg-blue-active: #f4f9ff;
+@bg-dashborad: #fafcff;
+@bg-green: #00c19d;
+@bg-green-light: #edfff2;
+@bg-disable: #f7f7f7;
+@bg-black: #3a4161;
+@bg-top-disabled:#3968ca;
+@bg-others: #edf1ff;
+
+/* common border color */
+@border-default: #c3cad9;
+@border-default-light: #e1e6f0;/* 根据需求后续用到的边框线 */
+@border-blue:#4683e6;
+@border-blue-bright: #cae3ff;
+@border-blue-light:#e0eeff;
+@border-yellow: #fff28f;
+@border-red: #fed4d4;
+@border-gray: #e2e9f5;
+@border-disable: #d9d9d9;
+@border-pink: #bc65f7;
+@border-green: #4cd964;
+
+/* type color */
+@type-01: #ff8680;
+@type-01-a: #ff3b30;
+@type-01-b: #ff8680;
+@type-02: #f089cb;
+@type-02-a: #f030a9;
+@type-03: #ec80ff;
+@type-03-a: #e033ff;
+@type-04: #3266da;
+@type-04-a: #33beff;
+@type-04-b: #66cfff;
+@type-05: #33beff;
+@type-05-a: #73e6a3;
+@type-06: #63e2e4;
+@type-06-a: #ffaa33;
+@type-07: #73e6a3;
+@type-08: #ffaa33;
+@type-09: #ffcc00;
+
+/* nav background color */
+@nav-background: #e1e6f0;
+@sub-nav-background: #f3f4f4;
+
+@menu-bg: #f2f3f5;
+@menu-title: #999999;
+
+/* tag 色值 */
+@tag-purple: #ac71ef;
+@tag-cyan: #2eceff;
+@tag-blue: #499ff5;
+@tag-orange: #fc946a;
+
+/**
+  辅助色-修订
+  衍生浅色和深色
+  浅色函数：tint(@purple-0, 20%)
+  范围：20%，40%，60%，90%
+  深色函数：shade(@purple-0, 10%)
+  范围：10%，30%，60%，80%
+ */
+@purple-0: #ac71ef;
+@cyan-0: #2eceff;
+@blue-0: #499ff5;
+@orange-0: #fc946a;
+@yellow-0: #ffe229;
+@green-0: #0af5ce;
+
+/* common class color */
+a.u-color-default,
+.u-color-default{
+  color: @default-color;
+
+  &-force{
+    color: @default-color!important;
+  }
+}
+a.u-red,
+.u-red{
+  color: @red;
+
+  &-force{
+    color: @red!important;
+  }
+}
+a.u-blue,
+.u-blue{
+  color: @blue;
+
+  &-force{
+    color: @blue!important;
+  }
+}
+a.u-white,
+.u-white{
+  color: @white;
+
+  &-force{
+    color: @white!important;
+  }
+}
+a.u-green,
+.u-green{
+  color: @green;
+
+  &-force{
+    color: @green!important;
+  }
+}
+a.u-yellow,
+.u-yellow{
+  color: @yellow;
+
+  &-force{
+    color: @yellow!important;
+  }
+}
+a.u-gray,
+.u-gray{
+  color: @disable;
+
+  &-force{
+    color: @disable!important;
+  }
+}
+a.u-pink,
+.u-pink{
+  color: @pink;
+
+  &-force{
+    color: @pink!important;
+  }
+}
+a.u-orange,
+.u-orange{
+  color: @orange;
+
+  &-force{
+    color: @orange!important;
+  }
+}
+
+//备注颜色
+a.u-color-tip,
+.u-color-tip{
+  color: @light-gray;
+
+  &-force{
+    color: @light-gray !important;
+  }
+}
+
+/* common background color */
+.u-bg-conent{
+  background-color: @bg-content;
+
+  &-force{
+    background-color: @bg-content!important;
+  }
+}
+
+.u-bg-white{
+  background-color: @white;
+
+  &-force{
+    background-color: @white!important;
+  }
+}
+
+.u-bg-default {
+  background-color: @bg-default;
+
+  &-force{
+    background-color: @bg-default!important;
+  }
+}
+
+.u-bg-disable {
+  background-color: @bg-disable;
+
+  &-force{
+    background-color: @bg-disable!important;
+  }
+}
+
+.u-bg-red {
+  background-color: @bg-red;
+
+  &-force{
+    background-color: @bg-red!important;
+  }
+}
+
+.u-bg-red-dark {
+  background-color: @red;
+
+  &-force{
+    background-color: @red!important;
+  }
+}
+
+.u-bg-yellow {
+  background-color: @bg-yellow;
+
+  &-force{
+    background-color: @bg-yellow!important;
+  }
+}
+
+.u-bg-green {
+  background-color: @bg-green-light;
+
+  &-force{
+    background-color: @bg-green-light!important;
+  }
+}
+
+.u-bg-td {
+  background-color: @bg-table-striped;
+
+  &-force{
+    background-color: @bg-table-striped!important;
+  }
+}
+
+.u-bg-others{
+  background-color: @bg-others;
+
+  &-force{
+    background-color: @bg-others!important;
+  }
+}
+
+/* common border color */
+.u-border-color-white{
+  border-color: @white;
+
+  &-force{
+    border-color: @white!important;
+  }
+}
+
+.u-border-color-default {
+  border-color: @border-default;
+
+  &-force{
+    border-color: @border-default!important;
+  }
+}
+
+.u-border-color-blue {
+  border-color: @blue;
+
+  &-force{
+    border-color: @blue!important;
+  }
+}
+
+.u-border-color-red {
+  border-color: @red;
+
+  &-force{
+    border-color: @red!important;
+  }
+}
+
+.u-border-color-yellow {
+  border-color: @yellow;
+
+  &-force{
+    border-color: @yellow!important;
+  }
+}
+
+.u-border-color-green {
+  border-color: @green;
+
+  &-force{
+    border-color: @green!important;
+  }
+}
+
+.u-border-color-pink {
+  border-color: @pink;
+
+  &-force{
+    border-color: @pink!important;
+  }
+}
+
+/* tag标签背景色 */
+.tag--red{
+  background-color: @bg-red;
+}
+.tag--gray{
+  background-color: @bg-gray;
+}
+.tag--blue {
+  background-color: @bg-blue-active;
+}
+
+.u-color--default{
+  color: @default-color;
+
+  &-force{
+    color: @default-color !important;
+  }
+}
+
+.u-color--title{
+  color: @title-color;
+
+  &-force{
+    color: @title-color !important;
+  }
+}
+
+.u-color-title{
+  color: @title-color;
+
+  &-force{
+    color: @title-color !important;
+  }
+}

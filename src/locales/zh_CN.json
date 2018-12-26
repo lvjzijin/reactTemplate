@@ -1,0 +1,12 @@
+{
+  "ITEM_1": "主页1",
+  "ITEM_2": "主页2",
+  "ITEM_3": "主页3",
+  "ITEM_4": "主页4",
+  "LOGIN": "登录",
+  "REGISTER": "注册",
+  "USER_CENTER": "用户中心",
+  "ACCOUNT_SECURITY": "账户安全",
+  "VERIFITY": "实名认证",
+  "AUTH_MANAGE": "权限管理"
+}
